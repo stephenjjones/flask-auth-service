@@ -49,6 +49,7 @@ $ pip install argon2_cffi
 $ pip install flask-httpauth
 $ pip install marshmallow
 $ pip install flask-migrate
+$ pip install flask-cors
 ```
 
 Setup database:
@@ -87,8 +88,13 @@ $ python server.py db upgrade
   - id (primary key)
   - name
 
+### Extensions
+* flask_script
+  - `$ python manage.py {runserver, shell}
+  - `$ python manage.py runserver --help
+
 #### Reference links
-[Flask web apis](http://blog.miguelgrinberg.com/post/restful-authentication-with-flask)
-[hynek](https://hynek.me/articles/storing-passwords/)
-[flask restful api services](https://www.youtube.com/watch?v=px_vg9Far1Y)
-[marshmallow serialization and validation](http://marshmallow.readthedocs.io/en/latest/)
+- [Flask web apis](http://blog.miguelgrinberg.com/post/restful-authentication-with-flask)
+- [hynek](https://hynek.me/articles/storing-passwords/)
+- [flask restful api services](https://www.youtube.com/watch?v=px_vg9Far1Y)
+- [marshmallow serialization and validation](http://marshmallow.readthedocs.io/en/latest/)

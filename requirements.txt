@@ -3,6 +3,7 @@ argon2-cffi==16.1.0
 cffi==1.7.0
 click==6.6
 Flask==0.11.1
+Flask-Cors==2.1.2
 Flask-HTTPAuth==3.1.2
 Flask-Migrate==1.8.0
 Flask-Script==2.0.5
